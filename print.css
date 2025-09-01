@@ -1,0 +1,65 @@
+@page {
+   margin: 0 50px 0 50px;
+}
+
+html {
+    padding: 0;
+}
+
+.filters, .table_head, .move_to_otd {
+    display: none;
+}
+ a {
+    text-decoration: none !important;
+ }
+h1 {
+    display: flex !important;
+    font-size: 30px;
+ }
+ .bmark {
+    display: none;
+ }
+ .departmentname::first-letter {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+ }
+ .departmentname {
+   border-top: 1px solid black !important;
+   border: 0;
+   border-bottom: 1px solid black;
+ }
+
+ .stafftable_columns:nth-child(4) {
+   padding-right: 40px;
+}
+.maintr {
+   box-shadow: none;
+}
+#infodate {
+   display: inline;
+   font-size: 15px;
+}
+.infomenu {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 4px 6px 2px;
+}
+.hidden {
+   position: absolute;
+   display: block;
+   top: 30px;
+   right: 0;
+   width: 100px;
+   height: 100px;
+}
+.stafftable {
+   width: 73%;
+}
+@media (orientation: landscape) {
+   .stafftable {
+      width: 100%;
+   }
+
+}
